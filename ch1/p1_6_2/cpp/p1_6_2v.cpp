@@ -51,8 +51,7 @@ int main() {
         std::cin.get(ch);  // skip endl
 
         for (int i = 0; i < r; i++) {
-            for(int j=0; j<c; j++) 
-                std::cin.get(board[i][j]);
+            for (int j = 0; j < c; j++) std::cin.get(board[i][j]);
             std::cin.get(ch);  // skip endl
         }
 
