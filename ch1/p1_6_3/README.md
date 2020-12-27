@@ -25,18 +25,18 @@ that must be exchanged to equalize the students’ costs.
 
 #### Sample Input
 
-3
-10.00
-20.00
-30.00
-4
-15.00
-15.01
-3.00
-3.01
-0
+	3
+	10.00
+	20.00
+	30.00
+	4
+	15.00
+	15.01
+	3.00
+	3.01
+	0
 
 #### Sample Output
 
-$10.00
-$11.99
+	$10.00
+	$11.99
