@@ -1,5 +1,5 @@
 
-### The 3n+1 problem
+## The 3n+1 problem [ID: 100]
 
 Consider the following algorithm to generate a sequence of numbers. Start with an
 integer n. If n is even, divide by 2. If n is odd, multiply by 3 and add 1. Repeat this
@@ -16,23 +16,23 @@ including the 1. In the example above, the cycle length of 22 is 16. Given any t
 numbers i and j, you are to determine the maximum cycle length over all numbers
 between i and j, including both endpoints.
 
-#### Input
+### Input
 The input will consist of a series of pairs of integers i and j, one pair of integers per
 line. All integers will be less than 1,000,000 and greater than 0.
 
-#### Output
+### Output
 For each pair of input integers i and j, output i, j in the same order in which they
 appeared in the input and then the maximum cycle length for integers between and
 including i and j. These three numbers should be separated by one space, with all three
 numbers on one line and with one line of output for each line of input.
 
-#### Sample Input
+### Sample Input
     1 10
     100 200
     201 210
     900 1000
 
-#### Sample Output
+### Sample Output
     1 10 20
     100 200 125
     201 210 89
