@@ -5,3 +5,5 @@
 - **p1.6.2:** [ID: 10189] Minesweeper
 - **p1.6.3:** [ID: 10137] The Trip
 - **p1.6.4:** [ID:   706] LCD Display
+- **p1.6.5:** [ID: 10267] Graphical Editor
+
