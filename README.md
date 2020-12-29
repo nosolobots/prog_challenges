@@ -2,8 +2,8 @@
 
 ___
 _from the book:_
-## Programming Challenges
-### The Programming Contest Training Manual
+### Programming Challenges
+### _The Programming Contest Training Manual_
 #### Steven S. Skiena
 #### Miguel A. Revilla
 ___
