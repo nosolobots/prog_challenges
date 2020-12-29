@@ -1,11 +1,11 @@
 # 1. Getting Started
 
 ## Problems
-| Number | ID  | Name |
-| ------- | --- | ---- |
-| **p1.6.1** | 100 | The 3n + 1 Problem |
-| **p1.6.2** | 10189 | Minesweeper |
-| **p1.6.3** | 10137 | The Trip |
-| **p1.6.4** | 706 | LCD Display |
-| **p1.6.5** | 10267 | Graphical Editor |
+| Problem | Title | ID | Level |
+| ------- | ---- | --- | :---: |
+| p1.6.1 | The 3n + 1 Problem | 100 | 1 |
+| p1.6.2 | Minesweeper | 10189 | 1 |
+| p1.6.3 | The Trip | 10137 | 1 |
+| p1.6.4 | LCD Display | 706 | 1 |
+| p1.6.5 | Graphical Editor | 10267 | 1 |
 
