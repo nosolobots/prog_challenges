@@ -1,5 +1,5 @@
 
-## The 3n+1 problem [ID: 100]
+## The 3n+1 problem 
 
 Consider the following algorithm to generate a sequence of numbers. Start with an
 integer n. If n is even, divide by 2. If n is odd, multiply by 3 and add 1. Repeat this

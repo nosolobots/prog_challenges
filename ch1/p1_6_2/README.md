@@ -1,5 +1,5 @@
 
-## Minesweeper [ID: 10189]
+## Minesweeper 
 
 Have you ever played Minesweeper? This cute little game comes with a certain op-
 erating system whose name we can’t remember. The goal of the game is to find where

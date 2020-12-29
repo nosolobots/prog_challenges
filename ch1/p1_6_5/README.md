@@ -1,5 +1,5 @@
 
-## Graphical Editor [id: 10267]
+## Graphical Editor
 
 Graphical editors such as Photoshop allow us to alter bit-mapped images in the same
 way that text editors allow us to modify documents. Images are represented as an *M × N*

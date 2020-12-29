@@ -1,5 +1,5 @@
 
-## The Trip [ID: 10137]
+## The Trip 
 
 A group of students are members of a club that travels annually to different lo-
 cations. Their destinations in the past have included Indianapolis, Phoenix, Nashville,
