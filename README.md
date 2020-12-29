@@ -2,10 +2,10 @@
 
 ___
 _from the book:_
-### Programming Challenges
-#### The Programming Contest Training Manual
-##### Steven S. Skiena
-##### Miguel A. Revilla
+## Programming Challenges
+### The Programming Contest Training Manual
+#### Steven S. Skiena
+#### Miguel A. Revilla
 ___
 
 _online judge:_
