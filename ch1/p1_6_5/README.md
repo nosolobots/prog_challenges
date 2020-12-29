@@ -18,7 +18,7 @@ upper-left corner of the table. Colors are specified by capital letters.
 
 The editor accepts the following commands:
 
-| Command &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Description | 
+| Command &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; | Description | 
 | -------- | -------- |
 | I M N | Create a new *M x N* image with all pioxels initially colores white(0) |
 | C | Clear the table by setting all pixels white (0). The size remains unchanged |
