@@ -15,8 +15,7 @@ as three-digit integers and stored in RAM. The encodings are as follows:
 | 6ds | add the value of register s to register d |
 | 7ds | multiply register d by the value of register s |
 | 8da | set register d to the in RAM whose address is in register a |
-| 9sa | set the value in RAM whose address is in register a to that os register
-s |
+| 9sa | set the value in RAM whose address is in register a to that of register s |
 | 0ds | goto the location in register d unless register s contains 0 |
 
 
