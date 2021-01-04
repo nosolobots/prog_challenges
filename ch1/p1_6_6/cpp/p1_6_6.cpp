@@ -20,29 +20,29 @@
 #define SETr 5  // set from register
 #define ADDr 6  // add from register
 #define MULr 7  // mul from register
-#define SEfm 8  // set from memory
-#define SEtm 9  // set memory
+#define SEfm 8  // set register from memory
+#define SEtm 9  // set memory from register
 #define GOTO 0  // goto
 
-uint8_t MEM[MEMSIZE][3];
-int REG[NREG];
-int PC;
+uint8_t MEM[MEMSIZE][3];    // Memory
+int REG[NREG];              // Registers
+int PC;                     // Program Counter
 
 int executeInstruction() {
-    // Read instruction
+    // Read instruction code & operands
     uint8_t opc = MEM[PC][0];
     uint8_t op1 = MEM[PC][1];
     uint8_t op2 = MEM[PC][2];
     int val;
 
-    ++PC;  // increment the program counter
+    ++PC;  // increment program counter
 
-    if (!opc && !op1 && !op2)  // NOP
+    if (!opc && !op1 && !op2)   // NOP
         return 0;
 
     switch (opc) {
         case HALT:
-            return SIGINT;
+            return SIGINT;      // Stop execution
         case SETi:
             REG[op1] = op2;
             break;
@@ -85,20 +85,12 @@ int executeInstruction() {
     return 0;
 }
 
-void print_program(int len) {
-    std::cout << "Length: " << len << std::endl;
-    for (int i = 0; i < len; i++) {
-        std::cout << i << ":\t" << (int)MEM[i][0] << (int)MEM[i][1]
-                  << (int)MEM[i][2] << std::endl;
-    }
-}
-
 int main() {
     int n;   // number of cases
     int ni;  // number of executed instructions
 
     std::cin >> n;
-    std::cin.get();  // skip nl
+    std::cin.get();  // skip ending nl
 
     std::string cmd;
     std::getline(std::cin, cmd, '\n');  // skip first blank line
@@ -121,9 +113,7 @@ int main() {
             }
         } while (cmd.length());
 
-        // print_program(proglen);
-
-        // Process instructions
+        // Execute instructions
         PC = 0;
         ni = 0;
         while (true) {
