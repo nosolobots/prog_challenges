@@ -9,4 +9,4 @@
 | p1.6.4 | LCD Display | 706 | 1 |
 | p1.6.5 | Graphical Editor | 10267 | 1 |
 | p1.6.6 | Interpreter | 10033 | 2 |
-
+| p1.6.7 | Check the Check | 10196 | 1 |
