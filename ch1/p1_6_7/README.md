@@ -17,7 +17,10 @@ it takes pieces diagonally, and that is what concerns you in this problem.
 **Knight (n or N):** has an L-shaped movement shown below. It is the only piece 
 that can jump over other pieces.
 
-**Bishop (b or B):** can move any number of squares vertically or horizontally, 
+**Bishop (b or B):** can move any number of squares diagonally, either forward 
+or backward.
+
+**Rook (r or R):** can move any number of squares vertically or horizontally, 
 either forward or backward.
 
 **Queen (q or Q):** can move any number of squares in any direction (diagonally,
@@ -29,8 +32,8 @@ horizontally, or vertically) either forward or backward.
 Movement examples are shown below, where "\*" indicates the positions where the
 piece can capture another piece:
 
-Pawn        Rook        Bishop      Queen       King        Knight
 ```
+Pawn        Rook        Bishop      Queen       King        Knight
 ........    ...*....    .......*    .......*    ........    ........
 ........    ...*....    *.....*.    *.....*.    ........    ........
 ........    ...*....    .*...*..    .*...*..    ........    ..*.*...
@@ -70,6 +73,7 @@ Game #d: no king is in check.
 where d stands for the game number starting from 1.
 
 ### Sample Input
+```
 ..k.....
 ppp.pppp
 ........
@@ -96,6 +100,7 @@ RNBQKB.R
 ........
 ........
 ........
+```
 
 ### Sample Output
 Game #1: black king is in check.
