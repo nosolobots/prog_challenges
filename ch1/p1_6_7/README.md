@@ -66,9 +66,11 @@ black king.
 ### Output
 For each board configuration read you must output one of the following answers:
 
+```
 Game #d: white king is in check.
 Game #d: black king is in check.
 Game #d: no king is in check.
+```
 
 where d stands for the game number starting from 1.
 
@@ -103,5 +105,8 @@ RNBQKB.R
 ```
 
 ### Sample Output
+```
 Game #1: black king is in check.
 Game #2: white king is in check.
+```
+
